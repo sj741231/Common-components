@@ -1,0 +1,95 @@
+// cd protos
+// python3.8 -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. --experimental_allow_proto3_optional mysql_grpc.proto
+
+syntax = "proto3";
+
+package mysql_grpc;
+
+service MySQLGRPC {
+
+  rpc GetUsers (UsersRequest) returns (UsersResponse) {}
+
+  rpc GetMySQL (MySQLRequest) returns (MySQLResponse) {}
+
+  rpc GetDatabase (DatabaseRequest) returns (DatabaseResponse) {}
+
+  // A client-to-server streaming RPC.
+  // Accepts a stream of Points on a route being traversed, returning a
+  // RouteSummary when traversal is completed.
+  rpc SearchUser(stream UsersRequest) returns (SearchUsersResponse) {}
+
+}
+
+// The message containing IP and Port
+message DBConnInfo {
+  string ip = 1;
+  uint32 port = 2;
+  string dbname = 3;
+  string mysqluid = 4;
+}
+
+// The request
+message UsersRequest {
+  DBConnInfo dbconn = 1;
+  string user = 2;
+}
+
+// The message containing user's info
+message UserInfo {
+  string user = 1;
+  string host = 2;
+  string password_expired = 3;
+  string password_last_changed = 4;
+}
+
+// The response
+message UsersResponse {
+  DBConnInfo dbconn = 1;
+  repeated UserInfo result = 2;
+}
+
+// The response
+message SearchUsersResponse {
+  repeated UsersResponse result = 1;
+}
+
+// The request
+message MySQLRequest {
+  DBConnInfo dbconn = 1;
+  string database = 2;
+}
+
+// The message containing user's info
+message DatabaseInfo {
+  string table_schema = 1;
+  uint32 table_count = 2;
+  float total_size = 3;
+  float data_size = 4;
+  float index_size = 5;
+}
+
+// The response
+message MySQLResponse {
+  DBConnInfo dbconn = 1;
+  repeated DatabaseInfo result = 2;
+}
+
+// The request
+message DatabaseRequest {
+  DBConnInfo dbconn = 1;
+  string database = 2;
+}
+
+// The message containing user's info
+message DatabaseDetails {
+  string table_name = 1;
+  float total_size = 2;
+  float data_size = 3;
+  float index_size = 4;
+}
+
+// The response
+message DatabaseResponse {
+  DBConnInfo dbconn = 1;
+  repeated DatabaseDetails result = 2;
+}
