@@ -2,66 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d22f7d2-ee42-40c8-8f71-98cd5afd5be0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Common-components.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReferenceContent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-components/dynamicpassword/accounts/dynamicpassword.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-components/dynamicpassword/accounts/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-components/dynamicpassword/dynamicpassword/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-components/dynamicpassword/env/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django-components/dynamicpassword/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/client/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/client/mysql/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/client/mysql/mysql_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/client/mysql/mysql_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/client/mysql/mysql_grpc_pb2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/client/mysql/mysql_grpc_pb2_grpc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/example/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/example/helloworld/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/example/helloworld/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/example/helloworld/greeter_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/example/helloworld/greeter_client_with_options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/example/helloworld/greeter_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/example/helloworld/greeter_server_with_reflection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/example/helloworld/helloworld_pb2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/example/helloworld/helloworld_pb2_grpc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/example/route_guide/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/example/route_guide/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/example/route_guide/route_guide_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/example/route_guide/route_guide_db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/example/route_guide/route_guide_pb2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/example/route_guide/route_guide_pb2_grpc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/example/route_guide/route_guide_resources.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/example/route_guide/route_guide_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/example/route_guide/run_codegen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/protos/helloworld.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/protos/mysql_grpc.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/protos/route_guide.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/server/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/server/mysql/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/server/mysql/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/server/mysql/common/mysql_conn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/server/mysql/get_database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/server/mysql/get_mysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/server/mysql/get_users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/server/mysql/mysql_grpc_pb2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/server/mysql/mysql_grpc_pb2_grpc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_python/server/mysql/mysql_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/sendmailwx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/utils_checkport.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/utils_getdate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/utils_logmail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/utils_re.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/utils_timezone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/utils_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/utils_timezone.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils_timezone.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +41,7 @@
       <recent name="$PROJECT_DIR$/utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.utils_getdate">
+  <component name="RunManager" selected="Python.utils_timezone">
     <configuration name="utils_converttime" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Common-components" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,8 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.utils_getdate" />
         <item itemvalue="Python.utils_timezone" />
+        <item itemvalue="Python.utils_getdate" />
         <item itemvalue="Python.utils_converttime" />
       </list>
     </recent_temporary>
@@ -199,18 +141,34 @@
       <workItem from="1617084415213" duration="1750000" />
       <workItem from="1617086455253" duration="673000" />
       <workItem from="1617087158262" duration="202000" />
-      <workItem from="1617087375233" duration="7008000" />
+      <workItem from="1617087375233" duration="7534000" />
     </task>
+    <task id="LOCAL-00001" summary="Create Project">
+      <created>1617097027055</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617097027055</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="190" key="#Deployment" timestamp="1617086923802">
       <screen x="0" y="0" width="1680" height="1004" />
     </state>
     <state x="440" y="190" key="#Deployment/0.0.1680.1004@0.0.1680.1004" timestamp="1617086923802" />
+    <state x="428" y="127" key="CommitChangelistDialog2" timestamp="1617097026837">
+      <screen x="0" y="0" width="1680" height="1004" />
+    </state>
+    <state x="428" y="127" key="CommitChangelistDialog2/0.0.1680.1004@0.0.1680.1004" timestamp="1617097026837" />
     <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1617087579439">
       <screen x="0" y="0" width="1680" height="1004" />
     </state>
@@ -219,26 +177,34 @@
       <screen x="0" y="0" width="1680" height="1004" />
     </state>
     <state x="100" y="100" width="1480" height="850" key="DirDiffDialog/0.0.1680.1004@0.0.1680.1004" timestamp="1617087579440" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1617096722156">
-      <screen x="0" y="0" width="1680" height="1004" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1617097656060">
+      <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1004@0.0.1680.1004" timestamp="1617096722156" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1617096722154">
-      <screen x="0" y="0" width="1680" height="1004" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1617097656060" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1617097656059">
+      <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1004@0.0.1680.1004" timestamp="1617096722154" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1617096722153">
-      <screen x="0" y="0" width="1680" height="1004" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1617097656059" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1617097656059">
+      <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1004@0.0.1680.1004" timestamp="1617096722153" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1617096722155">
-      <screen x="0" y="0" width="1680" height="1004" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1617097656059" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1617097656060">
+      <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1004@0.0.1680.1004" timestamp="1617096722155" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1617097656060" />
     <state x="349" y="164" key="SettingsEditor" timestamp="1617086886065">
       <screen x="0" y="0" width="1680" height="1004" />
     </state>
     <state x="349" y="164" key="SettingsEditor/0.0.1680.1004@0.0.1680.1004" timestamp="1617086886065" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1617097044190">
+      <screen x="0" y="0" width="1680" height="1004" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1004@0.0.1680.1004" timestamp="1617097044190" />
     <state x="747" y="262" key="ftp.server.browser" timestamp="1617086875538">
       <screen x="0" y="0" width="1680" height="1004" />
     </state>
@@ -247,6 +213,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Common_components$utils_getdate.coverage" NAME="utils_getdate Coverage Results" MODIFIED="1617096722146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Common_components$utils_convert.coverage" NAME="utils_convert Coverage Results" MODIFIED="1617087417964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/Common_components$utils_timezone.coverage" NAME="utils_timezone Coverage Results" MODIFIED="1617096490963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/Common_components$utils_timezone.coverage" NAME="utils_timezone Coverage Results" MODIFIED="1617097656052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
   </component>
 </project>

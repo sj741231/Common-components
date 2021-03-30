@@ -102,15 +102,15 @@ if __name__ == "__main__":
 
     print("***" * 30)
     print(f"cn timezone name: {get_tzname_from_country(country_code='cn')}")
-    print(f"jp timezone name: {get_tzname_from_country(country_code='jp')}")
+    print(f"jp timezone name: {get_tzname_from_country(country_code='jp')}\n")
 
     print("###" * 30)
-    print(f"Local timezone: {get_local_timezone()}")
+    print(f"Local timezone: {get_local_timezone()}\n")
 
     print("###" * 30)
-    print(f"All timezones: {get_all_timezones()}")
+    print(f"All timezones: {get_all_timezones()}\n")
 
     print("###" * 30)
-    print(f"Common timezone: {get_common_timezones()}")
+    print(f"Common timezone: {get_common_timezones()}\n")
 
     print("###" * 30)
